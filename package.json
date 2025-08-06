@@ -36,5 +36,6 @@
 	"dependencies": {
 		"node-fetch": "^3.3.2",
 		"steamid": "^2.0.0"
-	}
+	},
+	"packageManager": "pnpm@10.14.0"
 }
