@@ -9,6 +9,7 @@
 	"type": "module",
 	"scripts": {
 		"prepublish": "tsc",
+		"build": "tsc",
 		"tsdoc": "typedoc --plugin typedoc-plugin-markdown --readme none --out docs index.ts"
 	},
 	"keywords": [
