@@ -9,6 +9,15 @@
 	</p>
 </div>
 
+## Changes in this fork
+- Ditch the usage of `createRequire` and use native ESM import for `package.json`, for compatibility with Cloudflare Workers (and other environments that don't support `import.meta.url`)
+- Use PNPM as the package manager
+- Built files (`dist/`) are now committed to the repository
+  - Install this package with these commands:
+	  - pnpm: `pnpm install somnisomni/node-steamapi`
+		- npm: `npm install somnisomni/node-steamapi`
+		- yarn: `yarn add somnisomni/node-steamapi`
+
 ## Documentation
 A list of all the methods SteamAPI provides is available [here](https://github.com/xDimGG/node-steamapi/blob/master/docs/classes/default.md#methods).
 
