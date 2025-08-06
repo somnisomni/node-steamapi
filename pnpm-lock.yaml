@@ -12,23 +12,23 @@ importers:
         specifier: ^3.3.2
         version: 3.3.2
       steamid:
-        specifier: ^2.0.0
+        specifier: ^2.1.0
         version: 2.1.0
     devDependencies:
       '@types/node':
-        specifier: ^20.11.5
-        version: 20.19.9
+        specifier: ^22.17.0
+        version: 22.17.0
       '@types/steamid':
         specifier: ^2.0.3
         version: 2.0.3
       typedoc:
-        specifier: ^0.28.2
+        specifier: ^0.28.9
         version: 0.28.9(typescript@5.9.2)
       typedoc-plugin-markdown:
-        specifier: ^4.6.2
+        specifier: ^4.8.0
         version: 4.8.0(typedoc@0.28.9(typescript@5.9.2))
       typescript:
-        specifier: ^5.7.3
+        specifier: ^5.9.2
         version: 5.9.2
 
 packages:
@@ -54,8 +54,8 @@ packages:
   '@types/hast@3.0.4':
     resolution: {integrity: sha512-WPs+bbQw5aCj+x6laNGWLH3wviHtoCv/P3+otBhbOhJgG8qtpdAMlTCxLtsTWA7LH1Oh/bFCHsBn0TPS5m30EQ==}
 
-  '@types/node@20.19.9':
-    resolution: {integrity: sha512-cuVNgarYWZqxRJDQHEB58GEONhOK79QVR/qYx4S7kcUObQvUwvFnYxJuuHUKm2aieN9X3yZB4LZsuYNU1Qphsw==}
+  '@types/node@22.17.0':
+    resolution: {integrity: sha512-bbAKTCqX5aNVryi7qXVMi+OkB3w/OyblodicMbvE38blyAz7GxXf6XYhklokijuPwwVg9sDLKRxt0ZHXQwZVfQ==}
 
   '@types/steamid@2.0.3':
     resolution: {integrity: sha512-ozNMQViUYLU+NBN4v7X0bV1O8uTL1bA+WvfHtt9IKcydS4tyYKH7w1vq+xcPGWGL0PRhGtY7C1Zhaeyj2IsETw==}
@@ -189,7 +189,7 @@ snapshots:
     dependencies:
       '@types/unist': 3.0.3
 
-  '@types/node@20.19.9':
+  '@types/node@22.17.0':
     dependencies:
       undici-types: 6.21.0
 
