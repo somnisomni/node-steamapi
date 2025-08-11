@@ -13,6 +13,7 @@
 - Ditch the usage of `createRequire` and use native ESM import for `package.json`, for compatibility with Cloudflare Workers (and other environments that don't support `import.meta.url`)
 - Use PNPM as the package manager
 - Built files (`dist/`) are now committed to the repository
+  - I know this is not a good practice, but I have no account on NPMjs thus I want this package directly installed from package managers.
   - Install this package with these commands:  
 	  pnpm: `pnpm install somnisomni/node-steamapi`  
 	  npm: `npm install somnisomni/node-steamapi`  
